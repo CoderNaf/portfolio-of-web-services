@@ -1,0 +1,216 @@
+:root{
+    --color-black-new:#0B0D0D;
+    --color-black-two:#32383A;
+    --color-whrite-text:#6e6e6e;
+    --color-green-one:#09C75F;
+    --color-green-two:#08D665;
+    --color-green-three:#D1EDDD;
+    --color-whrite-on:#E5F9EE;
+    --font-oswald: 'Oswald', sans-serif;
+    --font-rubik: 'Rubik', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-black-new);
+}
+.none{
+    display: none;
+}
+.menú{
+    display: none;
+}
+/* Header */
+
+header{
+    width: 100%;
+}
+
+.header-container {
+    max-width:1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: solid .5px var(--color-black-two);
+}
+.logo{
+    width: 100px;
+    height: auto;
+}
+.menu-mobile {
+    display: inline-block;
+    width: 26px;
+    height: 27px;
+    background-image: url('../assets/svg/SVG/menu1.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* section one */
+
+.section-one {
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.section-one--container {
+    max-width: 980px;
+    min-width: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+.section-one-container--content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.section-one-content--text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section-one-content--text h1{
+    font-family: var(--font-oswald);
+    font-size: 3rem;
+    color: var(--color-whrite-on);
+    line-height: 3.5rem;
+}
+.section-one-content--text h1 span{
+    color: var(--color-green-one);
+}
+.section-one-content--text div{
+    padding: .5rem;
+    border-left: 5px solid var(--color-green-two);
+    border-radius: 5px;
+}
+.section-one-content--text div h2{
+    color: var(--color-whrite-on);
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: var(--font-rubik);
+    line-height: 1.6rem;
+    display: flex;
+}
+.call-to-action{
+    padding: 1rem;
+    background-color: var(--color-green-one);
+    color: var(--color-green-three);
+    font-family: var(--font-rubik);
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: .7rem;
+}
+.call-to-action span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url('/assets/svg/CUADRADOFLECHA1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+    vertical-align: -7px;
+}
+.section-one-content-text--circle{
+    position: fixed;
+    left: -50px;
+    top: 3rem;
+    z-index: -1;
+    width:100%;
+    max-width: 600px;
+    animation:rotate 30s linear infinite alternate;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+    
+}
+
+/* main */
+
+main{
+    background-color: #fff;
+}
+.section-two{
+    width: 100%;
+    margin-top: 2rem;
+}
+.section-two--container {
+    max-width: 1000px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+.section-two-container--content {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+}
+.section-two-content--container {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .7rem;
+    background-color: transparent;
+    border: 2px solid #c4c4c4;
+    border-radius: .5rem;
+    overflow: hidden;
+}
+.section-two-content--container h3{
+    font-size: 1.7rem;
+    font-family: var(--font-oswald);
+    color: var(--color-black-two);
+    position: relative;
+    z-index: 1; 
+}
+.section-two-content--container p{
+    font-size: 1rem;
+    font-family: var(--font-rubik);
+    line-height: 1.5rem;
+    color: var(--color-whrite-text);
+    position: relative;
+    z-index: 1; 
+}
+.section-two-container--content div span{
+    display: inline-block;
+    width: 85px;
+    height: 80px;
+    background-image: url('../assets/svg/img1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1; 
+}
+
+.circle-transition{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color:var(--color-green-three);
+    border-radius: 50%;
+    transition: transform .7s ease-in-out;
+}
+
+.section-two-content--container:hover .circle-transition {
+    transform: scale(10);
+}
