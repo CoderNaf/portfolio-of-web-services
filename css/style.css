@@ -5,6 +5,9 @@
     --color-green-one:#09C75F;
     --color-green-two:#08D665;
     --color-green-three:#D1EDDD;
+    --color-green-four:#5FDB97;
+    --color-green-five:#4DD78B;
+    --color-green-six:#39D27E;
     --color-whrite-on:#E5F9EE;
     --font-oswald: 'Oswald', sans-serif;
     --font-rubik: 'Rubik', sans-serif;
@@ -62,6 +65,7 @@ header{
     margin-top: 1.5rem;
 }
 .section-one--container {
+    width: 100%;
     max-width: 980px;
     min-width: 320px;
     margin: 0 auto;
@@ -128,7 +132,6 @@ header{
     left: -50px;
     top: 3rem;
     z-index: -1;
-    width:100%;
     max-width: 600px;
     animation:rotate 30s linear infinite alternate;
 }
@@ -143,179 +146,94 @@ header{
     
 }
 
-/* main */
+/* seccio dos */
 
-main{
-    background-color: #fff;
-}
-.section-two{
+.section-two {
     width: 100%;
-    margin-top: 2rem;
+    background-color: var(--color-whrite-on);
 }
-.section-two--container {
-    max-width: 1000px;
-    min-width: 320px;
-    margin: 0 auto;
-}
-.section-two-container--content {
+.section-two .section-two--content {
     padding: 1rem;
+    max-width: 980px;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
 }
-.section-two-content--container {
-    padding: 1.2rem;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: .7rem;
-    background-color: transparent;
-    border: 2px solid #c4c4c4;
+.section-two .section-two--content .section-two--container {
+    padding: 1rem;
+    border: solid 1px var(--color-whrite-text);
     border-radius: .5rem;
     overflow: hidden;
     position: relative;
+    overflow: hidden;
     transition: .7s;
 }
-.section-two-content--container2 {
-    padding: 1.2rem;
+.section-two .section-two--content .section-two--container:hover{
+    background-color: var(--color-green-two);
+    transition: .7s;
+}
+.section-two .section-two--content .section-two--container .section-two-container--text{
     display: flex;
     flex-direction: column;
+    gap: 1rem;
     text-align: center;
-    gap: .7rem;
-    background-color: var(--color-green-one);
-    border-radius: .5rem;
-    overflow: hidden;
-    position: relative;
-    transition: .7s;
 }
-.section-two-content--container2 h3{
-    font-size: 1.7rem;
-    font-family: var(--font-oswald);
-    color: var(--color-whrite-on);
-    position: relative;
-    z-index: 4; 
-    transition: 1s;
-}
-.section-two-content--container2 p{
-    font-size: 1rem;
-    font-family: var(--font-rubik);
-    line-height: 1.5rem;
-    color: var(--color-whrite-on);
-    position: relative;
-    z-index: 4; 
-    transition: 1s;
-    font-weight: 400;
-}
-.section-two-content--container:hover{
-    background-color: var(--color-green-one);
-    transition: .7s;
-}
-.section-two-content--container h3{
-    font-size: 1.7rem;
+.section-two--container .section-two-container--text h3{
+    font-size: 2rem;
     font-family: var(--font-oswald);
     color: var(--color-black-two);
-    position: relative;
-    z-index: 4; 
-    transition: 1s;
+    z-index: 8;
 }
-.section-two-content--container p{
-    font-size: 1rem;
+.section-two--container .section-two-container--text p{
+    font-size: 1.2rem;
     font-family: var(--font-rubik);
-    line-height: 1.5rem;
     color: var(--color-whrite-text);
-    position: relative;
-    z-index: 4; 
-    transition: 1s;
-    font-weight: 400;
+    z-index: 8;
 }
-.section-two-container--content div span{
-    display: inline-block;
-    width: 85px;
-    height: 80px;
-    background-image: url('../assets/svg/img1.svg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-    position: relative;
-    z-index: 4; 
-}
-
-
-.circle-transition{
-    display: inline-block;
+.section-two .section-two--content .section-two--container span{
     position: absolute;
-    width: 58px;
-    height: 58px;
-    background-color:var(--color-green-three);
+    display: inline-block;
+    top: 5px;
+    left: 5px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
-    transition: transform .7s ease-in-out;
+    transition: .5s ease-out;
+}
+.section-two .section-two--content .section-two--container span:nth-child(1){
+    background-color: var(--color-green-four);
+    transition: .5s;
+    z-index: 4;
+}
+.section-two .section-two--content .section-two--container span:nth-child(2){
+    background-color: var(--color-green-five);
     z-index: 3;
 }
-.circle-transition2{
-    display: inline-block;
-    position: absolute;
-    width: 56px;
-    height: 56px;
-    background-color:var(--color-green-two);
-    border-radius: 50%;
-    border: none;
-    transition: transform .7s ease-in-out;
+.section-two .section-two--content .section-two--container span:nth-child(3){
+    background-color: var(--color-green-six);
     z-index: 2;
 }
-.circle-transition3{
-    display: inline-block;
-    position: absolute;
-    width: 58px;
-    height: 58px;
-    background-color:var(--color-green-one);
-    border-radius: 50%;
-    transition: transform .7s ease-in-out;
+.section-two .section-two--content .section-two--container span:nth-child(4){
+    background-color: var(--color-green-two);
     z-index: 1;
-    border: none;
-}
-.circle-transition1-1{
-    display: inline-block;
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    top: -2rem;
-    left: -3rem;
-    background-color:var(--color-green-three);
-    border-radius: 50%;
-    transition: transform .7s ease-in-out;
-    z-index: 3;
-}
-.circle-transition2-1{
-    display: inline-block;
-    position: absolute;
-    width: 200px;
-    height:200px;
-    top: -3rem;
-    left: -4rem;
-    background-color:var(--color-green-two);
-    border-radius: 50%;
-    border: none;
-    transition: transform .7s ease-in-out;
-    z-index: 2;
 }
 
-.section-two-content--container:hover .circle-transition{
-    transform: scale(6);
+.section-two .section-two--content .section-two--container:hover span:nth-child(1){
+    transform: scale(3);
+    transition: .5s;
 }
-.section-two-content--container:hover .circle-transition2{
+.section-two .section-two--content .section-two--container:hover span:nth-child(2){
+    transform: scale(5);
+    transition: .5s;
+}
+.section-two .section-two--content .section-two--container:hover span:nth-child(3){
+    transform: scale(7);
+    transition: .5s;
+}
+.section-two .section-two--content .section-two--container:hover span:nth-child(4){
     transform: scale(10);
-}
-.section-two-content--container:hover .circle-transition3{
-    transform: scale(14);
-}
-.section-two-content--container:hover p{
-    color: var(--color-black-two);
-    transition: 1s;
-}
-.section-two-content--container:hover h3{
-    color: var(--color-whrite-text);
-    transition: 1s;
+    transition: .5s;
 }
 
 

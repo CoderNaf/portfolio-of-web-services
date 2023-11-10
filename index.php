@@ -55,42 +55,45 @@
         </section>
     </section>
     
-    <main>
+    <!-- section two -->
 
-        <!-- section two -->
-
-        <section class="section-two">
-            <section class="section-two--container">
-                <div class="section-two-container--content">
-                    <div class="section-two-content--container">
-                        <div class="circle-transition"></div>
-                        <div class="circle-transition2"></div>
-                        <div class="circle-transition3"></div>
-                        <span></span>
-                        <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, ab deleniti consequuntur eaque odit!</p>
-                    </div>
-                    <div class="section-two-content--container2">
-                        <div class="circle-transition1-1"></div>
-                        <div class="circle-transition2-1"></div>
-                        <div class="circle-transition3-1"></div>
-                        <span></span>
-                        <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas sit placeat, maiores natus similique.</p>
-                    </div>
-                    <div class="section-two-content--container">
-                        <div class="circle-transition"></div>
-                        <div class="circle-transition2"></div>
-                        <div class="circle-transition3"></div>   
-                        <span></span>
-                        <h3>Lorem, ipsum.</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quisquam debitis animi quam accusamus quasi?</p>
-                    </div>
-                </div>
-            </section>
+    <section class="section-two">
+        <section class="section-two--content">
+            <div class="section-two--container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <section class="section-two-container--text">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
+                </section>
+            </div>
+            <div class="section-two--container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <section class="section-two-container--text">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
+                </section>
+            </div>
+            <div class="section-two--container">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <section class="section-two-container--text">
+                    <h3>Lorem, ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
+                </section>
+            </div>
         </section>
-
-    </main>
+    </section>
     
     
 </body>
