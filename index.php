@@ -64,18 +64,24 @@
                 <div class="section-two-container--content">
                     <div class="section-two-content--container">
                         <div class="circle-transition"></div>
+                        <div class="circle-transition2"></div>
+                        <div class="circle-transition3"></div>
                         <span></span>
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, ab deleniti consequuntur eaque odit!</p>
                     </div>
                     <div class="section-two-content--container">
                         <div class="circle-transition"></div>
+                        <div class="circle-transition2"></div>
+                        <div class="circle-transition3"></div>
                         <span></span>
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas sit placeat, maiores natus similique.</p>
                     </div>
                     <div class="section-two-content--container">
-                        <div class="circle-transition"></div>    
+                        <div class="circle-transition"></div>
+                        <div class="circle-transition2"></div>
+                        <div class="circle-transition3"></div>   
                         <span></span>
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quisquam debitis animi quam accusamus quasi?</p>

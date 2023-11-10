@@ -116,7 +116,7 @@ header{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-image: url('/assets/svg/CUADRADOFLECHA1.png');
+    background-image: url('../assets/svg/CUADRADOFLECHA1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -173,13 +173,20 @@ main{
     border: 2px solid #c4c4c4;
     border-radius: .5rem;
     overflow: hidden;
+    position: relative;
+    transition: .7s;
+}
+.section-two-content--container:hover{
+    background-color: var(--color-green-one);
+    transition: .7s;
 }
 .section-two-content--container h3{
     font-size: 1.7rem;
     font-family: var(--font-oswald);
     color: var(--color-black-two);
     position: relative;
-    z-index: 1; 
+    z-index: 4; 
+    transition: 1s;
 }
 .section-two-content--container p{
     font-size: 1rem;
@@ -187,7 +194,9 @@ main{
     line-height: 1.5rem;
     color: var(--color-whrite-text);
     position: relative;
-    z-index: 1; 
+    z-index: 4; 
+    transition: 1s;
+    font-weight: 400;
 }
 .section-two-container--content div span{
     display: inline-block;
@@ -199,18 +208,57 @@ main{
     background-size: cover;
     margin: 0 auto;
     position: relative;
-    z-index: 1; 
+    z-index: 4; 
 }
+
 
 .circle-transition{
     display: inline-block;
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    width: 58px;
+    height: 58px;
     background-color:var(--color-green-three);
     border-radius: 50%;
     transition: transform .7s ease-in-out;
+    z-index: 3;
+}
+.circle-transition2{
+    display: inline-block;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    background-color:var(--color-green-two);
+    border-radius: 50%;
+    border: none;
+    transition: transform .7s ease-in-out;
+    z-index: 2;
+}
+.circle-transition3{
+    display: inline-block;
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    background-color:var(--color-green-one);
+    border-radius: 50%;
+    transition: transform .7s ease-in-out;
+    z-index: 1;
+    border: none;
 }
 
-.section-two-content--container:hover .circle-transition {
+.section-two-content--container:hover .circle-transition{
     transform: scale(10);
+}
+.section-two-content--container:hover .circle-transition2{
+    transform: scale(14);
+}
+.section-two-content--container:hover .circle-transition3{
+    transform: scale(18);
+}
+.section-two-content--container:hover p{
+    color: var(--color-black-two);
+    transition: 1s;
+}
+.section-two-content--container:hover h3{
+    color: var(--color-whrite-on);
+    transition: 1s;
 }
