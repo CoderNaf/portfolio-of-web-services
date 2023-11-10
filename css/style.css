@@ -176,6 +176,36 @@ main{
     position: relative;
     transition: .7s;
 }
+.section-two-content--container2 {
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: .7rem;
+    background-color: var(--color-green-one);
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    transition: .7s;
+}
+.section-two-content--container2 h3{
+    font-size: 1.7rem;
+    font-family: var(--font-oswald);
+    color: var(--color-whrite-on);
+    position: relative;
+    z-index: 4; 
+    transition: 1s;
+}
+.section-two-content--container2 p{
+    font-size: 1rem;
+    font-family: var(--font-rubik);
+    line-height: 1.5rem;
+    color: var(--color-whrite-on);
+    position: relative;
+    z-index: 4; 
+    transition: 1s;
+    font-weight: 400;
+}
 .section-two-content--container:hover{
     background-color: var(--color-green-one);
     transition: .7s;
@@ -244,21 +274,48 @@ main{
     z-index: 1;
     border: none;
 }
+.circle-transition1-1{
+    display: inline-block;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: -2rem;
+    left: -3rem;
+    background-color:var(--color-green-three);
+    border-radius: 50%;
+    transition: transform .7s ease-in-out;
+    z-index: 3;
+}
+.circle-transition2-1{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height:200px;
+    top: -3rem;
+    left: -4rem;
+    background-color:var(--color-green-two);
+    border-radius: 50%;
+    border: none;
+    transition: transform .7s ease-in-out;
+    z-index: 2;
+}
 
 .section-two-content--container:hover .circle-transition{
-    transform: scale(10);
+    transform: scale(6);
 }
 .section-two-content--container:hover .circle-transition2{
-    transform: scale(14);
+    transform: scale(10);
 }
 .section-two-content--container:hover .circle-transition3{
-    transform: scale(18);
+    transform: scale(14);
 }
 .section-two-content--container:hover p{
     color: var(--color-black-two);
     transition: 1s;
 }
 .section-two-content--container:hover h3{
-    color: var(--color-whrite-on);
+    color: var(--color-whrite-text);
     transition: 1s;
 }
+
+

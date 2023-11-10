@@ -70,10 +70,10 @@
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, ab deleniti consequuntur eaque odit!</p>
                     </div>
-                    <div class="section-two-content--container">
-                        <div class="circle-transition"></div>
-                        <div class="circle-transition2"></div>
-                        <div class="circle-transition3"></div>
+                    <div class="section-two-content--container2">
+                        <div class="circle-transition1-1"></div>
+                        <div class="circle-transition2-1"></div>
+                        <div class="circle-transition3-1"></div>
                         <span></span>
                         <h3>Lorem, ipsum.</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptas sit placeat, maiores natus similique.</p>
