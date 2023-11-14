@@ -59,6 +59,7 @@
 
     <section class="section-two">
         <section class="section-two--content">
+            <h2>services info</h2>
             <div class="section-two--container">
                 <span></span>
                 <span></span>
@@ -66,7 +67,7 @@
                 <span></span>
                 <span></span>
                 <section class="section-two-container--text">
-                    <h3>Lorem, ipsum.</h3>
+                    <h3>diseños principales</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
                 </section>
             </div>
@@ -77,7 +78,7 @@
                 <span></span>
                 <span></span>
                 <section class="section-two-container--text">
-                    <h3>Lorem, ipsum.</h3>
+                    <h3>prototipados</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
                 </section>
             </div>
@@ -88,13 +89,64 @@
                 <span></span>
                 <span></span>
                 <section class="section-two-container--text">
-                    <h3>Lorem, ipsum.</h3>
+                    <h3>diseño Web</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
                 </section>
             </div>
         </section>
     </section>
-    
+
+    <!-- section three -->
+
+    <section class="section-three">
+        <section class="section-three--container">
+            <div class="section-three--content">
+                <div class="section-three--text">
+                    <article class="section-three--title">
+                        <h2>mycarrera</h2>
+                        <p>my experience</p>
+                        <h3>experience and <span>skill</span></h3>
+                    </article>
+                    <article class="section-three--title2">
+                        <h3><span></span>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit</h3>
+                    </article>
+                </div>
+                <section class="section-three--experience">
+                    <div class="section-three-content--info">
+                        <span></span>
+                        <h2>2011 - 2014 (Ui designer)</h2>
+                        <h4>lead designer musicsoft</h4>
+                        <p>All you need to do your best together in
+                        one package works seamlessly computer
+                        programming language study.
+                        </p>
+                        <h5>01</h5>
+                    </div>
+                    <div class="section-three-content--info">
+                        <span></span>
+                        <h2>2011 - 2014 (Ui designer)</h2>
+                        <h4>lead designer musicsoft</h4>
+                        <p>All you need to do your best together in
+                        one package works seamlessly computer
+                        programming language study.
+                        </p>
+                        <h5>02</h5>
+                    </div>
+                    <div class="section-three-content--info">
+                        <span></span>
+                        <h2>2011 - 2014 (Ui designer)</h2>
+                        <h4>lead designer musicsoft</h4>
+                        <p>All you need to do your best together in
+                        one package works seamlessly computer
+                        programming language study.
+                        </p>
+                        <h5>03</h5>
+                    </div>
+                
+                </section>
+            </div>
+        </section>
+    </section>
     
 </body>
 </html>
