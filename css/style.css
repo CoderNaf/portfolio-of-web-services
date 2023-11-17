@@ -151,16 +151,17 @@ header{
 .section-two {
     width: 100%;
     background-color: #fefefe;
+    padding-top: 3rem;
 }
 .section-two .section-two--content {
     padding: 1rem;
-    max-width: 980px;
+    max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 1rem;
 }
-.section-two .section-two--content h2{
+.section-two h2{
     text-align: center;
     font-size: 2rem;
     color: var(--color-green-four);
@@ -170,14 +171,13 @@ header{
 
 }
 .section-two .section-two--content .section-two--container {
-    padding: 1rem;
+    padding: 3rem 1rem;
     border: solid 1px #6e6e6e27;
     border-radius: .5rem;
     overflow: hidden;
     position: relative;
     overflow: hidden;
     transition: .7s;
-    cursor: pointer;
 }
 .section-two .section-two--content .section-two--container:hover{
     background-color: var(--color-green-two);
@@ -262,8 +262,8 @@ header{
 }
 .section-three--text {
     padding: 1rem;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 }
 .section-three--text .section-three--title {
     display: flex;
@@ -324,10 +324,11 @@ header{
     display: grid;
     grid-template-columns: repeat(1,1fr);
     gap: 1.5rem;
+    padding-bottom: 5rem;
 }
 .section-three-content--info {
     background-color: #fefefe;
-    padding: 1.2rem;
+    padding: 3rem 1rem;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -469,7 +470,20 @@ header{
     font-size: 1.2rem;
     font-weight: 400;
 }
-.controlls-four--carrucel {
+.section-four--pictures {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin-top: 1.5rem;
 }
-.section-four--images {
+.section-four--pictures picture{
+    background-color: var(--color-black-two);
+    padding: 1.5rem;
+    border-radius: .3rem;
 }
+.section-four--pictures picture img{
+    width: 100%;
+    max-width: 320px;
+}
+

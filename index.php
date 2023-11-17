@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width:760px)">
+    <link rel="stylesheet" href="./css/descktop.css" media="(min-width:1024px)">
     
 </head>
 <body>
@@ -58,8 +60,8 @@
     <!-- section two -->
 
     <section class="section-two">
+        <h2>services info</h2>
         <section class="section-two--content">
-            <h2>services info</h2>
             <div class="section-two--container">
                 <span></span>
                 <span></span>
@@ -162,13 +164,20 @@
                     <article class="section-four--text-content">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ea fuga ut asperiores similique?</p>
                     </article>
-                    <!-- <div class="controlls-four--carrucel">
-                        <span><</span>
-                        <span>></span>
-                    </div> -->
+
                 </section>
-                <article class="section-four--images">
-                </article>
+                <section class="section-four--pictures">
+                    <picture>
+                        <img src="./assets/webp/campbellg.webp" alt="">
+                    </picture>
+                    <picture>
+                        <img src="./assets/webp/lulopy.webp" alt="">
+                    </picture>
+                    <picture>
+                        <img src="./assets/webp/uwebdigital.webp" alt="">
+                    </picture>
+                </section>
+
             </div>
         </section>
     </section>
