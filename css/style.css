@@ -474,7 +474,7 @@ header{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    gap: 1rem;
+    gap: 1.5rem;
     margin-top: 1.5rem;
 }
 .section-four--pictures picture{
@@ -485,5 +485,6 @@ header{
 .section-four--pictures picture img{
     width: 100%;
     max-width: 320px;
+    cursor: pointer;
 }
 

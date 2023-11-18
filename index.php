@@ -51,7 +51,7 @@
                     <div>
                     <h2><span></span>Diseño soluciones digitales innovadoras que integran PHP en el backend y JavaScript en el frontend. Transformo ideas en experiencias web y aplicaciones funcionales. ¡Trabaja conmigo para hacer realidad tu visión!</h2>
                     </div>
-                    <button class="call-to-action">Hablemos de tu Idea<span></span></button>
+                    <button class="call-to-action" id="callToAction">Hablemos de tu Idea<span></span></button>
                 </div>
             </section>
         </section>
@@ -69,8 +69,8 @@
                 <span></span>
                 <span></span>
                 <section class="section-two-container--text">
-                    <h3>diseños principales</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
+                    <h3>Desarrollo Web</h3>
+                    <p>Potencia tu presencia online con soluciones PHP y JavaScript, creando experiencias únicas e innovadoras para tu audiencia</p>
                 </section>
             </div>
             <div class="section-two--container">
@@ -80,8 +80,8 @@
                 <span></span>
                 <span></span>
                 <section class="section-two-container--text">
-                    <h3>prototipados</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
+                    <h3>Diseño Web</h3>
+                    <p>Transforma tu visión en un atractivo escaparate digital con creatividad, funcionalidad y estilo, destacando entre la competencia</p>
                 </section>
             </div>
             <div class="section-two--container">
@@ -91,8 +91,8 @@
                 <span></span>
                 <span></span>
                 <section class="section-two-container--text">
-                    <h3>diseño Web</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam minima dolorum similique ducimus cumque vel sequi dolor aut non ad?</p>
+                    <h3>UI/UX</h3>
+                    <p>Experience: Optimiza la interacción de tus usuarios con un diseño intuitivo y atractivo, elevando la experiencia digital de tu marca a otro nivel</p>
                 </section>
             </div>
         </section>
@@ -110,37 +110,31 @@
                         <h3>experience and <span>skill</span></h3>
                     </article>
                     <article class="section-three--title2">
-                        <h3><span></span>Lorem Ipsum Dolor Sit Amet, Consectetur Adipisicing Elit. Sint Ratione Reprehenderit</h3>
+                        <h3><span></span>Mis habilidades y experiencia se fusionan para ofrecer soluciones, elevando las experiencias digitales con éxito</h3>
                     </article>
                 </div>
                 <section class="section-three--experience">
                     <div class="section-three-content--info">
                         <span></span>
-                        <h2>2011 - 2014 (Ui designer)</h2>
-                        <h4>lead designer musicsoft</h4>
-                        <p>All you need to do your best together in
-                        one package works seamlessly computer
-                        programming language study.
+                        <h2>2021-2023(developer Web)</h2>
+                        <h4>Frelance</h4>
+                        <p>Como programador y diseñador UI, lideré el prototipado y desarrollo web, especializándome en la creación de experiencias E-commerce. Fusiono habilidades técnicas y creativas para construir soluciones digitales impactantes.
                         </p>
                         <h5>01</h5>
                     </div>
                     <div class="section-three-content--info">
                         <span></span>
-                        <h2>2011 - 2014 (Ui designer)</h2>
-                        <h4>lead designer musicsoft</h4>
-                        <p>All you need to do your best together in
-                        one package works seamlessly computer
-                        programming language study.
+                        <h2>2022 - 2023 (development web)</h2>
+                        <h4>uweb digital</h4>
+                        <p>Dirijo proyectos de diseño y desarrollo web, destacando en prototipado UI/UX, programación y eficiente consumo de APIs. Lidero con experiencia y visión estratégica en cada proyecto.
                         </p>
                         <h5>02</h5>
                     </div>
                     <div class="section-three-content--info">
                         <span></span>
-                        <h2>2011 - 2014 (Ui designer)</h2>
-                        <h4>lead designer musicsoft</h4>
-                        <p>All you need to do your best together in
-                        one package works seamlessly computer
-                        programming language study.
+                        <h2>2023 - 2023 (developer web)</h2>
+                        <h4>frelace</h4>
+                        <p>Como líder, orquesté un proyecto integral para la creación de páginas web y una plataforma educativa para una institución de educación superior. Fusioné innovación y experiencia para potenciar la excelencia educativa.
                         </p>
                         <h5>03</h5>
                     </div>
@@ -162,24 +156,25 @@
                         <h3>working <span>proyects</span></h3>
                     </article>
                     <article class="section-four--text-content">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam ea fuga ut asperiores similique?</p>
+                        <p>Descubre cómo llevo a cabo proyectos con eficiencia, desde la conceptualización hasta la implementación exitosa de soluciones innovadoras</p>
                     </article>
 
                 </section>
                 <section class="section-four--pictures">
                     <picture>
-                        <img src="./assets/webp/campbellg.webp" alt="">
+                        <img src="./assets/webp/campbellg.webp" alt="" id="campbell-com">
                     </picture>
                     <picture>
-                        <img src="./assets/webp/lulopy.webp" alt="">
+                        <img src="./assets/webp/lulopy.webp" alt="" id="lulopy-com">
                     </picture>
                     <picture>
-                        <img src="./assets/webp/uwebdigital.webp" alt="">
+                        <img src="./assets/webp/uwebdigital.webp" alt="" id="uweb-com">
                     </picture>
                 </section>
 
             </div>
         </section>
     </section>
+    <script src="./src/main.js"></script>
 </body>
 </html>
