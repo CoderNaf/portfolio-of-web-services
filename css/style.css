@@ -70,6 +70,7 @@ header{
     min-width: 320px;
     margin: 0 auto;
     position: relative;
+    padding-bottom: 4rem;
 }
 .section-one-container--content {
     padding: 1rem;
@@ -86,6 +87,8 @@ header{
     font-size: 3rem;
     color: var(--color-whrite-on);
     line-height: 3.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 .section-one-content--text h1 span{
     color: var(--color-green-one);
@@ -94,38 +97,40 @@ header{
     padding: .5rem;
     border-left: 5px solid var(--color-green-two);
     border-radius: 5px;
+    
 }
 .section-one-content--text div h2{
     color: var(--color-whrite-on);
     font-size: 1.3rem;
     font-weight: 500;
     font-family: var(--font-rubik);
-    line-height: 1.6rem;
+    line-height: 1.8rem;
     display: flex;
+    text-align: center;
 }
 .call-to-action{
     padding: 1rem;
     background-color: var(--color-green-one);
     color: var(--color-green-three);
     font-family: var(--font-rubik);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     text-transform: capitalize;
     border: none;
     border-radius: .5rem;
     cursor: pointer;
     margin-top: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
 }
 .call-to-action span{
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-    background-image: url('../assets/svg/CUADRADOFLECHA1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: 1rem;
-    vertical-align: -7px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
 }
 .section-one-content-text--circle{
     position: fixed;
@@ -470,21 +475,57 @@ header{
     font-size: 1.2rem;
     font-weight: 400;
 }
-.section-four--pictures {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
+.section-four-content-paragraf--text{
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
-    margin-top: 1.5rem;
+    justify-content: space-between;
+}
+.section-four--text-buttons{
+    display: flex;
+    gap: .7rem;
+    justify-content: end;
+}
+.section-four--text-buttons button{
+    padding: .3rem .5rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: var(--color-green-one);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-four--pictures {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    margin: 0 auto;
+    padding: 0rem 1rem;
+    margin-top: 2rem;
+}
+.section-four--pictures::-webkit-scrollbar {
+    width: 0; /* Ancho 0 */
+    background: transparent; /* Fondo transparente */
 }
 .section-four--pictures picture{
-    background-color: var(--color-black-two);
-    padding: 1.5rem;
-    border-radius: .3rem;
+    background-color: var(--color-whrite-text);
+    padding: 1rem;
+    width:100%;
+    min-width: 250px;
+    max-width: 360px;
+    height:auto;
+    border-radius: 0.7rem;
+    box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+    scroll-snap-align:center ;
 }
 .section-four--pictures picture img{
     width: 100%;
     max-width: 320px;
     cursor: pointer;
 }
+
+
 

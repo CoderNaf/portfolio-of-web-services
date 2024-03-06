@@ -1,0 +1,6 @@
+.section-two .section-two--content {
+    grid-template-columns: repeat(3,1fr);
+}
+.section-three--experience{
+    grid-template-columns: repeat(3,1fr);
+}

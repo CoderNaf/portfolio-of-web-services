@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portafolio de servicios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoderNaf/portfolio-of-web-services.git"
+  },
+  "keywords": [
+    "portafolio",
+    "-",
+    "servicios",
+    "-",
+    "developer"
+  ],
+  "author": "codernaf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoderNaf/portfolio-of-web-services/issues"
+  },
+  "homepage": "https://github.com/CoderNaf/portfolio-of-web-services#readme"
+}

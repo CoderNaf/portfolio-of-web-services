@@ -1,0 +1,13 @@
+.section-four--pictures {
+    grid-template-columns: repeat(3,1fr);
+}
+.section-four-content-paragraf--text{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.section-four--text-buttons{
+    display: flex;
+    gap: .7rem;
+    height: 100%;
+}
