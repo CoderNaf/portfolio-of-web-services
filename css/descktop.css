@@ -4,3 +4,13 @@
 .section-three--experience{
     grid-template-columns: repeat(3,1fr);
 }
+.section-one{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.section-one-content--text h1{
+    font-size: 4.2rem;
+    line-height: 4.5rem;
+}
