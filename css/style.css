@@ -23,6 +23,7 @@ body{
     padding: 0;
     background-color: var(--color-black-new);
     cursor: none;
+    position: relative;
 }
 .none{
     display: none;
@@ -51,12 +52,13 @@ header{
 }
 .menu-mobile {
     display: inline-block;
-    width: 26px;
-    height: 27px;
+    width: 20px;
+    height: 20px;
     background-image: url('../assets/svg/SVG/menu1.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
 
 /* section one */
@@ -520,15 +522,16 @@ header{
     background: transparent; /* Fondo transparente */
 }
 .section-four--pictures picture{
-    background-color: var(--color-whrite-text);
-    padding: 1rem;
+    background-color: #131617;
+    padding: 1.2rem;
     width:100%;
     min-width: 250px;
     max-width: 360px;
     height:auto;
-    border-radius: 0.7rem;
     box-shadow: 0 4px 8px rgba(89,73,30,0.16);
     scroll-snap-align:center ;
+    display: flex;
+    justify-content: center;
 }
 .section-four--pictures picture img{
     width: 100%;
@@ -539,11 +542,13 @@ header{
     width: 10px;
     height: 10px;
     background-color: #5f5f5f;
+    display:none;
 }
 .cursor-outline {
     width: 30px;
     height: 30px;
     border: 2px solid #5f5f5f;
+    display: none;
 }
 .cursor-dot,
 .cursor-outline{
@@ -554,4 +559,107 @@ header{
     transform: translate(-50%,-50%);
     z-index: 100;
     pointer-events: none;
+}
+.section-contact {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0b0d0d5d;
+    animation: divContact .5s;
+    display: none;
+}
+@keyframes divContact{
+    0%{
+        transform: translateX(-100%);
+
+    }
+    100%{
+        transform: translateX(0%);
+
+    }
+}
+
+.section-contact--container {
+    background-color: #0B0D0D;
+    padding: 1rem;
+    max-width: 380px;
+    height: 100vh;
+    animation: divContactContent 1s; 
+}
+@keyframes divContactContent {
+    0%{
+        transform: translateX(-100%);
+        
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.section-contact-container--social-media{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 1rem;
+}
+.div-button--close {
+    position: absolute;
+    right: .5rem;
+    top: 0;
+    border:2px solid var(--color-green-three);
+    border-radius: .2rem;
+    transition: .2s;
+    cursor: pointer;
+}
+.div-button--close:hover {
+    transform: scale(1.1);
+    transition: .2s
+}
+.button--close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div-logo--popup {
+    margin-top: 3rem;
+}
+.logo--popup {
+    display: inline-block;
+    width: 120px;
+    height:50px;
+    background-image: url('../assets/img/CODERNAF-LOGO\ 1.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.div-asrticle--content {
+    padding: .7rem;
+    margin: 0 auto;
+}
+.article--content {
+    color: var(--color-whrite-on);
+    font-family: var(--font-rubik);
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.div--social-media {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: .5rem;
+    gap: .7rem;    
+}
+.social-media--icon{
+    border: 2px solid var(--color-whrite-on);
+    border-radius: .2rem;
+    padding: .3rem .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .2s;
+}
+.social-media--icon:hover{
+    background-color: var(--color-green-one);
+    transition: .2s;
 }

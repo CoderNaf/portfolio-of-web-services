@@ -1,3 +1,7 @@
+const sectionContact = document.querySelector('.section-contact')
+const btnCloseContact = document.querySelector('.div-button--close')
+const menuContact = document.querySelector('.menu-hamburguer')
+const body = document.getElementById('body')
 
 const callToAction = document.getElementById('callToAction').addEventListener('click', ()=>
 {
@@ -67,4 +71,12 @@ window.addEventListener('mousemove', (e) => {
 });
 
 
+menuContact.addEventListener('click', ()=>{
+    sectionContact.style.display = 'flex'
+    body.style.overflow = 'hidden'
+})
+btnCloseContact.addEventListener('click',()=>{
+    sectionContact.style.display = 'none'
+    body.style.overflow = 'auto'
+})
 

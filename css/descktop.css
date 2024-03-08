@@ -14,3 +14,9 @@
     font-size: 4.2rem;
     line-height: 4.5rem;
 }
+.cursor-dot {
+    display:inline-block;
+}
+.cursor-outline {
+    display: inline-block;
+}
