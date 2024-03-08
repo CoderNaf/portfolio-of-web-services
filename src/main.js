@@ -2,6 +2,11 @@ const sectionContact = document.querySelector('.section-contact')
 const btnCloseContact = document.querySelector('.div-button--close')
 const menuContact = document.querySelector('.menu-hamburguer')
 const body = document.getElementById('body')
+const facebook = document.querySelector('.facebook')
+const instagram = document.querySelector('.instagram')
+const linkeding = document.querySelector('.linkeding')
+const whatsapp = document.querySelector('.whatsApp')
+
 
 const callToAction = document.getElementById('callToAction').addEventListener('click', ()=>
 {
@@ -80,3 +85,19 @@ btnCloseContact.addEventListener('click',()=>{
     body.style.overflow = 'auto'
 })
 
+function openWindows(link){
+    return window.open(link)
+}
+
+facebook.addEventListener('click', ()=>{
+    openWindows('https://www.facebook.com/profile.php?id=61556301428767')
+})
+instagram.addEventListener('click',()=>{
+    openWindows('https://www.instagram.com/fabiansilvadev?igsh=MXhwM2QwaGY1cTBkcg==')
+})
+linkeding.addEventListener('click', ()=>{
+    openWindows('https://www.linkedin.com/in/fabian-silva-dev/')
+})
+whatsapp.addEventListener('click', ()=>{
+    openWindows('https://wa.me/573043171488')
+})
